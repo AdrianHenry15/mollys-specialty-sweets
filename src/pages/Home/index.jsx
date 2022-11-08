@@ -11,11 +11,11 @@ const Home = () => {
                     <h3>Welcome To</h3>
                     <h3 className="home-title">Molly's Specialty Sweets</h3>
                     <div className="btn-wrapper">
-                        <Link to="/contact">
+                        {/* <Link to="/contact">
                             <button className="btn-container">
                                 <h4>Contact Us</h4>
                             </button>
-                        </Link>
+                        </Link> */}
                         {/* <button className="btn-container">
                             <h4>Weddings</h4>
                         </button> */}

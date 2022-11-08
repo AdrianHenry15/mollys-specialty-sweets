@@ -51,3 +51,16 @@
         height: 40px;
     }
 }
+
+    // tablets
+    @media (min-width: 769px) and (max-width: 1250px) {}
+
+    @media (min-width: 320px) and (max-width: 768px) {
+        .footer {
+            font-size: 10px !important;
+        }
+
+        .footer-container {
+            font-size: 12px;
+        }
+    }
