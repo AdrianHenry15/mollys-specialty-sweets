@@ -1,0 +1,58 @@
+.home-container {
+    display: flex;
+    background: white url(../../assets/img/cakes/blueberry-choclate-rustic.jpg) no-repeat center;
+    background-size: 100% 100vh;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+    .home-title-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poiret One', cursive;
+        background-color: var(--bg-color);
+        border-radius: 50%;
+        border: gray double 10px;
+        width: 400px;
+        height: 300px;
+    }
+
+    .btn-wrapper {
+    display: flex;
+
+        .btn-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-height: 40px;
+            width: 85px;
+            border-radius: 20px;
+            cursor: pointer;
+            margin: 0 5px 0 5px;
+
+            // cool effect
+            background:
+                linear-gradient(-45deg, #000  40%, #fff 0 60%, #000  0) right/300% 100% no-repeat,
+                linear-gradient(-45deg, #0000 40%, #000 0 60%, #0000 0) right/300% 100% no-repeat;
+            -webkit-background-clip: text, padding-box;
+            background-clip: text, padding-box;
+            transition: 0.8s
+        }
+
+        .btn-container:hover {
+            background-position: left;
+        }
+
+        .btn-container:active {
+            background-color: var(--border-color);
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1250px) {}
+
+@media (min-width: 320px) and (max-width: 768px) {}

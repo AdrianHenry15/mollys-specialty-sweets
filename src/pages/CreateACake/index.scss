@@ -1,0 +1,95 @@
+.create-cake-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.right-arrow {
+    width: 24px;
+}
+
+.single-tier-round,
+.single-tier-sheet,
+.multiple-tier-round,
+.multiple-tier-sheet {
+    display: flex;
+    width: 114px;  
+    height: 91px;
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px 1px;
+    border-radius: 20px;
+}
+
+.cake-base-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+    .cake-base-title-container {
+        display: flex;
+        flex: .5;
+    }
+
+    .base-item-container {
+        display: flex;
+        flex: 1;
+
+        .base-item {
+            display: flex;
+        }
+    }
+
+    .base-tier-list-item {
+        li {
+            list-style: none;
+        }
+    }
+}
+
+.main-title-container {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.432);
+        width: 700px;
+        padding-bottom: 10px;
+    }
+}
+
+.create-cake-main-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.cake-select {
+    width: 350px;
+    height: 30px;
+    align-items: center;
+}
+
+.base-item-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.input-containers {
+    display: flex;
+    flex: 1;
+}
+
+.italics {
+    font-size: 11px;
+    font-weight: 300 !important;
+}
+
+.number {
+    display: flex;
+    flex: 1;
+}
+
+#cake-cost-comp {
+    border-bottom: 1px gray solid;
+}

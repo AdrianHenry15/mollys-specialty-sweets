@@ -1,0 +1,155 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: absolute;
+    width: 26px;
+    height: 20px;
+    left: 15px;
+    top: 22px;
+  }
+  
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: rgb(32, 29, 29);
+}
+  
+/* Color/shape of burger icon bars on */
+.bm-burger-bars-hover {
+  background: #fdf7f3;
+  opacity: 100% !important;
+}
+  
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-menu-wrap {
+  z-index: 1100;
+  transition: all 0.5s ease 0s;
+  width: 90% !important;
+}
+
+.bm-overlay {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.bm-item-list {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* menu */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--bg-color);
+    border-right: solid 1px var(--border-color);
+    font-family: 'Poiret One', cursive;
+    top: 10px;
+
+    .title-container {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .socials-container {
+          display: flex;
+        }
+    }
+
+    .footer-btns {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      flex: 1;
+      margin-top: 30px;
+    }
+
+    .btn-container {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        border: var(--border-color) solid 1px;
+        background-color: var(--bg-color);
+        max-height: 45px;
+        width: 100px;
+        cursor: pointer;
+
+        // cool effect
+        background:
+          linear-gradient(-45deg, #000  40%, #fff 0 60%, #000  0) right/300% 100% no-repeat,
+          linear-gradient(-45deg, #0000 40%, #000 0 60%, #0000 0) right/300% 100% no-repeat;
+        -webkit-background-clip: text, padding-box;
+        background-clip: text, padding-box;
+        transition: 0.8s
+    }
+
+    .btn-container:hover {
+      background-position: left;
+    }
+
+    .btn-container:active {
+      background-color: var(--btn-color);
+    }
+
+    .navigation-container {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 600;
+        margin-top: 25px;
+    }
+
+    .menu-footer-container {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .address-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .address {
+                display: flex;
+                font-size: 12px;
+                color: var(--address-color);
+            }
+        }
+    }
+}
+
+.bm-sidebar-nav-btn {
+  margin-top: 50px;
+
+  /* cool effect */
+  --b: 0.1em;   /* the thickness of the line */
+  --c: var(--address-color); /* the color */
+  color: #0000;
+  padding-block: var(--b);
+  background: 
+  linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+  linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s))
+}
+
+.bm-sidebar-nav-btn:hover {
+  --_p: 100%;
+  --_s: .3s;
+}
+
+@media (min-width: 1250px) {}
