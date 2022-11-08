@@ -9,6 +9,7 @@
     position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+    border-bottom: 1px solid black;
 }
 
 .title-container {
@@ -81,5 +82,10 @@
     // tablets
 @media (min-width: 769px) and (max-width: 1250px) {}
 
-@media (min-width: 320px) and (max-width: 768px) {}
+@media (min-width: 320px) and (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+}
 

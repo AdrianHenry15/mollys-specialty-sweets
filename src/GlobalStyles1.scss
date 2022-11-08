@@ -100,4 +100,29 @@
 @media (min-width: 769px) and (max-width: 1250px) {}
 
 /* Mobile Devices */
-@media (min-width: 320px) and (max-width: 768px) {}
+@media (min-width: 320px) and (max-width: 768px) {
+    .main-section-container {
+        flex-direction: column;
+    }
+
+    .display-img {
+        height: 240px !important;
+    }
+
+    .description-container {
+        font-size: 10px;
+        max-height: 520px;
+    }
+
+    .main-section-header-title {
+        font-size: 50px;
+        bottom: 594px;
+        left: 83px;
+    }
+
+    .flavors-content-container,
+    .fillings-content-container,
+    .frostings-content-container {
+        flex-direction: column !important;
+    }
+}
