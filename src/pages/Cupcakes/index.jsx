@@ -10,51 +10,44 @@ const Flavors = [
     },
     {
         id: 2,
-        name: "Sugar Cookie",
-    },
-    {
-        id: 3,
         name: "Peanut Butter",
     },
     {
+        id: 3,
+        name: "Snickerdoodle",
+    },
+    {
         id: 4,
-        name: "Oatmeal Raisin",
+        name: "Chocolate",
     },
     {
         id: 5,
-        name: "Snickerdoodles",
-    },
-    {
-        id: 6,
-        name: "Dark Chocolate",
-    },
-    {
-        id: 7,
         name: "Red Velvet",
     },
     {
-        id: 8,
+        id: 6,
         name: "Birthday Cake",
     },
+
     {
-        id: 9,
-        name: "Brownie",
-    },
-    {
-        id: 10,
-        name: "Birthday",
-    },
-    {
-        id: 11,
+        id: 7,
         name: "Oreo",
     },
     {
-        id: 12,
-        name: "Snowball",
+        id: 8,
+        name: "Coconut",
     },
     {
-        id: 13,
-        name: "Drop Cookies",
+        id: 9,
+        name: "Vanilla Bean",
+    },
+    {
+        id: 10,
+        name: "Lemon",
+    },
+    {
+        id: 11,
+        name: "Strawberry",
     },
 ];
 

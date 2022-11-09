@@ -53,10 +53,14 @@
     }
 }
 
-@media (min-width: 769px) and (max-width: 1250px) {}
-
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1200px) {
     .home-container {
-        background-size: 350% 100vh;
+        background-size: 220% 100vh !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .home-container {
+        background-size: 350% 100vh !important;
     }
 }

@@ -21,7 +21,7 @@ const Flavors = [
     },
     {
         id: 5,
-        name: "Snickerdoodles",
+        name: "Snickerdoodle",
     },
     {
         id: 6,
@@ -40,35 +40,16 @@ const Flavors = [
         name: "Brownie",
     },
     {
-        id: 10,
-        name: "Birthday",
-    },
-    {
         id: 11,
         name: "Oreo",
     },
     {
         id: 12,
-        name: "Snowball",
+        name: "Coconut",
     },
     {
         id: 13,
         name: "Drop Cookies",
-    },
-];
-
-const Frostings = [
-    {
-        id: 1,
-        name: "Swiss Buttercream",
-    },
-    {
-        id: 2,
-        name: "Cream Cheese Buttercream",
-    },
-    {
-        id: 3,
-        name: "Buttercream",
     },
 ];
 
@@ -150,31 +131,6 @@ const Cakes = () => {
                                                 <li
                                                     key={id}
                                                     className="flavor-item"
-                                                >
-                                                    {name}
-                                                </li>
-                                            );
-                                        } else {
-                                            return null;
-                                        }
-                                    })}
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="frostings-container">
-                        <div className="frostings-title-container">
-                            <h3 className="frostings-title">Frostings</h3>
-                        </div>
-                        <div className="frostings-content-container">
-                            <div className="frostings-list-container">
-                                <ul className="frostings-content">
-                                    {Frostings.map(({ id, name }) => {
-                                        if (id <= 3) {
-                                            return (
-                                                <li
-                                                    key={id}
-                                                    className="frostings-item"
                                                 >
                                                     {name}
                                                 </li>

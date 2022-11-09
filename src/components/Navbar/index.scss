@@ -80,12 +80,21 @@
 }
 
     // tablets
-@media (min-width: 769px) and (max-width: 1250px) {}
-
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1200px) {
     .navbar-container {
-        flex-direction: column;
-        padding-bottom: 10px;
+        flex-direction: column !important;
+        padding-bottom: 10px !important;
+    }
+
+    .nav-btns {
+        margin: 10px !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .navbar-container {
+        flex-direction: column !important;
+        padding-bottom: 10px !important;
     }
 
     .nav-btns {

@@ -14,46 +14,42 @@ export const CakeFlavors = [
     },
     {
         id: 3,
-        name: "Champagne",
-    },
-    {
-        id: 4,
         name: "Carrot",
     },
     {
-        id: 5,
+        id: 4,
         name: "Coconut",
     },
     {
-        id: 6,
+        id: 5,
         name: "Chocolate Earthquake",
     },
     {
-        id: 7,
+        id: 6,
         name: "Strawberry Champagne",
     },
     {
-        id: 8,
+        id: 7,
         name: "Red Velvet",
     },
     {
-        id: 9,
+        id: 8,
         name: "Chocolate",
     },
     {
-        id: 10,
+        id: 9,
         name: "Birthday",
     },
     {
-        id: 11,
+        id: 10,
         name: "Oreo",
     },
     {
-        id: 12,
+        id: 11,
         name: "Brown Butter",
     },
     {
-        id: 13,
+        id: 12,
         name: "Lemon",
     },
 ];
@@ -94,6 +90,10 @@ export const CakeFillings = [
     {
         id: 9,
         name: "Boston Cream",
+    },
+    {
+        id: 10,
+        name: "Fresh Fruit",
     },
 ];
 
@@ -223,7 +223,7 @@ const Cakes = () => {
                                     })}
                                 </ul>
                                 <ul className="fillings-content">
-                                    {CakeFlavors.map(({ id, name }) => {
+                                    {CakeFillings.map(({ id, name }) => {
                                         if (id > 3 && id <= 6) {
                                             return (
                                                 <li
@@ -241,7 +241,7 @@ const Cakes = () => {
                             </div>
                             <div className="fillings-list-container">
                                 <ul className="fillings-content">
-                                    {CakeFlavors.map(({ id, name }) => {
+                                    {CakeFillings.map(({ id, name }) => {
                                         if (id > 6 && id <= 9) {
                                             return (
                                                 <li
@@ -257,7 +257,7 @@ const Cakes = () => {
                                     })}
                                 </ul>
                                 <ul className="fillings-content">
-                                    {CakeFlavors.map(({ id, name }) => {
+                                    {CakeFillings.map(({ id, name }) => {
                                         if (id > 9) {
                                             return (
                                                 <li
