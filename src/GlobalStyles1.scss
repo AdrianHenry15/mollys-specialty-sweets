@@ -52,11 +52,10 @@
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    width: 100%;
+    width: 95%;
     flex-direction: column;
     font-size: 18px;
-    font-family: 'Poiret One', cursive;
-    font-weight: 900;
+    font-family: 'Pacifico', cursive;
     max-height: 570px;
 }
 
@@ -70,7 +69,6 @@
 .fillings-container, 
 .frostings-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -94,6 +92,7 @@
 .fillings-item,
 .frostings-item {
     margin-top: 7px;
+    list-style-type: none;
 }
 
 // Tablets

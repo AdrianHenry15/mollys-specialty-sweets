@@ -1,5 +1,6 @@
 import React from "react";
 import "../../../src/GlobalStyles1.scss";
+import "./index.scss";
 import ChocolateChip from "../../assets/img/cookies/gooey-chip-cookies.jpg";
 
 const Flavors = [
