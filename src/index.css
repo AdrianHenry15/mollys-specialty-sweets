@@ -5,6 +5,8 @@
 :root {
   --bg-color: #a3b288;
   --secondary-bg-color: #e5eed4;
+  --tertiary-bg-color: #8a9678;
+  --footer-color: rgb(206, 219, 189);
   --btn-color: #474b40;
   --border-color: #947977;
   --lite-border-color: #94797786;
